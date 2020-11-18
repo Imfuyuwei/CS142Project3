@@ -1,0 +1,17 @@
+th, tr, td {
+  border: 1px solid #89939C;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+}
+
+/* The cursor becomes a pointer and cell's background color becomes yellow when hover over the active cells */
+#active:hover{
+	cursor: pointer;
+	background-color: yellow;
+}
+
+/* Inactive date cells is in a dimmed fashion */
+#inactive{
+	color: #D3D3D3;
+}
